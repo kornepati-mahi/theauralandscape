@@ -1,0 +1,15 @@
+{
+  "name": "auralands",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Aura Landscape Co. — monorepo root. The React frontend lives in ./frontend",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview",
+    "install:all": "npm --prefix frontend install"
+  },
+  "workspaces": [
+    "frontend"
+  ]
+}
