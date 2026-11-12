@@ -5,7 +5,7 @@
   "description": "The Aura Landscape Co. — monorepo root. The React frontend lives in ./frontend",
   "scripts": {
     "dev": "npm --prefix frontend run dev",
-    "build": "npm --prefix frontend run build",
+    "build": "node build.cjs",
     "preview": "npm --prefix frontend run preview",
     "install:all": "npm --prefix frontend install"
   },
